@@ -1,0 +1,57 @@
+const exit = document.getElementById('exit');
+// exit.addEventListener('click', ()=> {
+//     currentScreen = GAMESCREEN.EndScreen;
+// });
+// const start = document.getElementById('start');
+// start.addEventListener('click', ()=> {
+//     currentScreen = GAMESCREEN.TitleScreen;
+// });
+
+// //keep track of game screens
+// var GAMESCREEN = {
+//     TitleScreen: 0,
+//     Shop: 1,
+//     EndScreen: 2
+// }
+
+// var currentScreen = GAMESCREEN.TitleScreen;
+
+// const canvas = document.querySelector('canvas');
+// const c = canvas.getContext('2d');
+
+// const shopBackground = new Image();
+// shopBackground.src = '../images/shopBackground.png';
+
+// const titleScreenbg = new Image();
+// titleScreenbg.src = '../images/titleScreen.png';
+
+// function render(image, ctx) {
+//     ctx.drawImage(image, 0, 0, ctx.canvas.width, ctx.canvas.height);
+// }
+
+
+// function draw() {
+//     // resizable 
+//     c.canvas.width = window.innerWidth;
+//     c.canvas.height = window.innerHeight - convertRemToPixels(8);
+
+//     switch(currentScreen) {
+//         case GAMESCREEN.TitleScreen:
+//             render(titleScreenbg, c);
+//         break;
+//         case GAMESCREEN.Shop:
+            
+//         break;
+//         case GAMESCREEN.EndScreen:
+//             c.fillStyle= 'blue';
+//             c.font = '12px arial';
+//             c.textAlign = 'center';
+//             c.fillText('thank you for playing', c.canvas.width/2, c.canvas.height/2);
+//         break;
+//     }
+//     requestAnimationFrame(draw);
+// }
+
+// titleScreenbg.onload = () => {
+//     draw();
+// }

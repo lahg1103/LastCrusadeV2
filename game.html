@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Last Crusade</title>
+        <link rel="icon" type="image/x-icon" href="images/FaviconLC.png">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <a href="index.html"><li class="psuedo-button">Home</li></a>
+               <li id="exit" class="select psuedo-button">Exit Game</li>
+               <li id="start" class="select psuedo-button">Start Game</li>
+            </ul>
+        </nav>
+        <div id="game">
+        <div id="menu" class="sidebar">
+            <ul>
+                <li id="create" class="select psuedo-button">New Game</li>
+                <li id="saves" class="select psuedo-button">Saved Games</li>
+            </ul>
+        </div>
+        
+        <div class="game-container">
+        <canvas class="game-canvas" width="600" height="400"></canvas>
+        </div>
+    </div>
+        <!--vanilla javascript-->
+        <script src="javascript/main.js"></script>
+        <script src="javascript/init.js"></script>
+
+        <footer class="center">
+            <p> Leslie A. Hurtado &copy; 2023.</p>
+        </footer>
+    </body>
+</html>
